@@ -1,5 +1,11 @@
-export default function App() {
-  return(
-    <div className="text-4xl text-pink-400">test1</div>
+import { useState } from "react";
+
+import Sidenav from "./components/Sidenav.tsx";
+
+function App() {
+  return (
+    <div>
+      <Sidenav />
+    </div>
   );
 }
