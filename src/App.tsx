@@ -1,11 +1,11 @@
 import { useState } from "react";
-
 import Sidenav from "./components/Sidenav.tsx";
 
-function App() {
+
+export default function App() {
   return (
     <div>
-      <Sidenav />
+      <Sidenav/>
     </div>
   );
 }
