@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AiOutlineMenu, AiOutlineHome, } from "react-icons/ai";
 import { GrGallery } from "react-icons/gr";
 import { GiCactusPot } from "react-icons/gi";
@@ -28,14 +28,14 @@ const Sidenav = () => {
             <span className="pl-4"> Главная</span>
           </a>
           <a
-            href="#main"
+            href="#cactus"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 bg-opacity-400 m-2 p-4 cursor-pointer hover:scale-105 ease-in duration-300"
           >
             <GiCactusPot size={20} />
             <span className="pl-4">Мир кактусов</span>
           </a>
           <a
-            href="#main"
+            href="#gallery"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 bg-opacity-400 m-2 p-4 cursor-pointer hover:scale-105 ease-in duration-300"
           >
             <GrGallery size={20} />
@@ -49,7 +49,7 @@ const Sidenav = () => {
             <span className="pl-4"> О нас</span>
           </a>
           <a
-            href="#main"
+            href="#message"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 bg-opacity-400 m-2 p-4 cursor-pointer hover:scale-105 ease-in duration-300"
           >
             <BiMessageEdit size={20} />
@@ -69,13 +69,13 @@ const Sidenav = () => {
               <AiOutlineHome size={20} />
             </a>
             <a
-              href="#main"
+              href="#cactus"
               className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
             >
               <GiCactusPot size={20} />
             </a>
             <a
-              href="#main"
+              href="#gallery"
               className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
             >
               <GrGallery size={20} />
@@ -87,7 +87,7 @@ const Sidenav = () => {
               <FaPeopleGroup size={20} />
             </a>
             <a
-              href="#main"
+              href="#message"
               className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
             >
               <BiMessageEdit size={20} />
